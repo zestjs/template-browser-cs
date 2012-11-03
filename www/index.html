@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <meta charset=utf-8>
+  <title>Zest Client App Template Example</title>
+  <script>
+    var require = {
+      baseUrl: 'lib',
+      paths: {
+        'app': '../app'
+      },
+      map: {
+        '*': {
+          'css': 'require-css/css',
+          'less': 'require-less/less',
+          'is': 'require-is/is'
+        }
+      }
+    }
+  </script>
+  <script src="lib/require.js" data-main=""></script>
+  <script>
+    //render the 'sample' component into the body on load
+    require(['zest'], function($z) {
+      $z.render('app/sample', {
+        text: 'hello world'
+      }, document.body);
+    });
+  </script>
+<head>
+<body>
+</body>
+</html>

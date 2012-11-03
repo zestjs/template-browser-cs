@@ -1,0 +1,8 @@
+{
+  "volo": {
+    "type": "directory",
+    "dependencies": {
+      "require-is": "guybedford/require-is"
+    }
+  }
+}
