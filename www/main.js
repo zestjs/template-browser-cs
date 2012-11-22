@@ -10,9 +10,8 @@ require({
       'is': 'require-is/is'
     }
   }
-}, ['zest', 'app/sample/sample'], function($z, Sample) {
-  $z.render(Sample, {
-    text: 'click me',
-    msg: 'thanks'
+}, ['zest', 'app/WelcomeComponent/welcome-component'], function($z, WelcomeComponent) {
+  $z.render(WelcomeComponent, {
+    welcome: ' to ZestJS'
   }, document.body);
 });
