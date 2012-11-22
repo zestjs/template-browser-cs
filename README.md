@@ -32,6 +32,7 @@ Then to build everything into one file, run the build script from the base proje
 
 Then load the app from `www-built/index.html`.
 
+The entire app is loaded from one script resource, including - 
 * Templates are compiled
 * CSS and LESS is inlined into script
 * CoffeeScript is compiled if using [require-cs](https://github.com/jrburke/require-cs)
