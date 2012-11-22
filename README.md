@@ -10,7 +10,7 @@ Use Volo (`npm install volo -g` in the comamnd line with [nodejs](http://nodejs.
  volo create folder_name zestjs/template-singlepage 
 ```
 
-Alternatively, download the full project including the dependencies here.
+Alternatively, [download the full project including the dependencies here](https://github.com/downloads/zestjs/template-browser/zest-template-browser.zip).
 
 Load `www/index.html` in the browser to run.
 
