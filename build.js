@@ -8,6 +8,9 @@
   skipDirOptimize: true,
   keepBuildDir: true,
 
+  // dont include the coffeescript compiler in the build
+  stubModules: ['cs'],
+
   modules: [
     {
       name: '../main'

@@ -10,8 +10,4 @@ require({
       'is': 'require-is/is'
     }
   }
-}, ['zest', 'app/Hello/hello'], function($z, Hello) {
-  $z.render(Hello, {
-    welcome: ' to ZestJS'
-  }, document.body);
-});
+}, ['cs!app/main']);
