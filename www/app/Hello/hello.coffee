@@ -1,4 +1,4 @@
-define ['zest', 'jquery', 'css!./hello'], ($z, $) ->
+define ['zest', 'jquery', 'less!./hello'], ($z, $) ->
   options:
     name: ' to ZestJS'
   render: (o) -> """
