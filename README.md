@@ -30,6 +30,10 @@ Then to build everything into one file, run the build script from the base proje
   r.js -o build.js
 ```
 
+
+Note there is a build issue pending [r.js issue #329](https://github.com/jrburke/r.js/issues/329).
+
+
 Then load the app from `www-built/index.html`.
 
 The entire app is loaded from one script resource, including - 

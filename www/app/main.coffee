@@ -1,4 +1,9 @@
-require ['zest', 'cs!app/Hello/hello'], ($z, Hello) ->
-  $z.render Hello,
-    welcome: ' to ZestJS'
+define ['zest', 'com!cs!app/Dialog/dialog'], ($z, Dialog) ->
+  $z.render Dialog,
+    width: 300
+    height: 50
+    content: """
+      <p>Welcome to ZestJS.</p>
+    """
+    confirmText: 'Close'
   , document.body
