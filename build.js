@@ -11,7 +11,7 @@
   modules: [
     {
       name: '../main',
-      include: ['zest/build!com!cs!app/Dialog/dialog'],
+      include: ['cs!app/Dialog/dialog'],
       exclude: ['coffee-script']
     }
   ]

@@ -1,4 +1,4 @@
-define ['zest', 'com!cs!app/Dialog/dialog'], ($z, Dialog) ->
+define ['zest', 'cs!app/Dialog/dialog'], ($z, Dialog) ->
   $z.render Dialog,
     width: 300
     height: 50

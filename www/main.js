@@ -9,7 +9,6 @@ require({
       'less': 'require-less/less',
       'is': 'require-is/is',
       'selector': 'jquery',
-      'com': 'zest/com',
       'cs': 'require-coffee/cs'
     }
   }
