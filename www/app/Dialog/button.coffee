@@ -1,4 +1,4 @@
-define ['zest', 'css!./button'], ($z) ->
+define ['zest', 'less!./button'], ($z) ->
   className: 'MyButton'
   options:
     text: 'Button'

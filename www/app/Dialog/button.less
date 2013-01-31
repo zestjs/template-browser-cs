@@ -25,25 +25,21 @@
   background-image: -moz-linear-gradient(top, #EDAE3D, #f0b95b);
   background-image: -o-linear-gradient(top, #EDAE3D, #f0b95b);
   background-image: linear-gradient(to bottom, #EDAE3D, #f0b95b);
-}
 
-.MyButton:hover {
-  /* -webkit-box-shadow: 2px 2px 5px 0px #969696;
-  box-shadow: 2px 2px 5px 0px #969696; */
-  
-  background-color: #f0b95b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0b95b), to(#edb03d));
-  background-image: -webkit-linear-gradient(top, #f0b95b, #edb03d);
-  background-image: -moz-linear-gradient(top, #f0b95b, #edb03d);
-  background-image: -o-linear-gradient(top, #f0b95b, #edb03d);
-  background-image: linear-gradient(to bottom, #f0b95b, #edb03d);
-}
+  &:hover {
+    background-color: #f0b95b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0b95b), to(#edb03d));
+    background-image: -webkit-linear-gradient(top, #f0b95b, #edb03d);
+    background-image: -moz-linear-gradient(top, #f0b95b, #edb03d);
+    background-image: -o-linear-gradient(top, #f0b95b, #edb03d);
+    background-image: linear-gradient(to bottom, #f0b95b, #edb03d);
+  }
 
-.MyButton:active {
-  top: 1px;
-  left: 1px;
-  
-  -webkit-box-shadow: 0px 0px 2px 0px #969696;
-  box-shadow: 0px 0px 2px 0px #969696;
-  
+  &:active {
+    top: 1px;
+    left: 1px;
+    
+    -webkit-box-shadow: 0px 0px 2px 0px #969696;
+    box-shadow: 0px 0px 2px 0px #969696;
+  }
 }

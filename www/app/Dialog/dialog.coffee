@@ -1,4 +1,4 @@
-define ['zest', 'cs!./button', 'css!./dialog'], ($z, Button) ->
+define ['zest', 'cs!./button', 'less!./dialog'], ($z, Button) ->
   className: 'SimpleDialog'
   options:
     width: 400
