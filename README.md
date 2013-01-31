@@ -1,6 +1,8 @@
 ZestJS Single Page App Template
 ===
 
+From the ZestJS Quick Start at http://zestjs.org/
+
 Install
 ---
 
