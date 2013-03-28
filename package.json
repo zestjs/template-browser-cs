@@ -10,8 +10,8 @@
   "volo": {
     "dependencies": {
       "require": "github:jrburke/requirejs/2.1.4",
-      "zest": "github:zestjs/zest/master",
-      "require-less": "github:guybedford/require-less/master",
+      "zest": "github:zestjs/zest/0.0.1",
+      "require-less": "github:guybedford/require-less/0.0.1",
       "jquery": "github:jquery/jquery/1.9.0"
     }
   }
